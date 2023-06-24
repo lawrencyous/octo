@@ -83,10 +83,10 @@ echo " "
 echo " Sit tight... "
 echo " "
 
-wget https://github.com/OctoPrint/OctoPrint/archive/refs/tags/1.8.7.zip -P /root
-unzip /root/1.8.7.zip -d /root
-cd /root/OctoPrint-1.8.7
-python /root/OctoPrint-1.8.7/setup.py install 
+wget https://github.com/OctoPrint/OctoPrint/archive/refs/tags/1.0.0.zip -P /root
+unzip /root/1.0.0.zip -d /root
+cd /root/OctoPrint-1.0.0
+python /root/OctoPrint-1.0.0/setup.py install 
 
 
 cd /
